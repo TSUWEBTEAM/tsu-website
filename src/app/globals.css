@@ -22,3 +22,19 @@ body {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Print: drop interactive chrome so programmes and proceedings print cleanly. */
+@media print {
+  [data-no-print],
+  body > header,
+  body > footer {
+    display: none !important;
+  }
+
+  /* Dark hero: print as plain black-on-white (browsers drop backgrounds). */
+  .conference-hero,
+  .conference-hero * {
+    background: none !important;
+    color: #000 !important;
+  }
+}

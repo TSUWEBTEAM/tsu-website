@@ -35,6 +35,7 @@ export const NAV_LINKS: NavItem[] = [
     label: 'Resources',
     children: [
       { label: 'Academic Calendar', href: '/academic-calendar' },
+      { label: 'Conferences', href: '/conferences' },
       { label: 'Library', href: '/library' },
       { label: 'Portals', href: '/portals' },
       { label: 'TETFund', href: '/tetfund' },
